@@ -21,8 +21,8 @@ export const POST = async(request)=> {
             },
           ],
           mode: "payment",
-          success_url: '/paymentsuccess',
-          cancel_url: `/paymentsuccess`,
+          success_url: 'https://bullandbear.vercel.app/paymentsuccess',
+          cancel_url: `https://bullandbear.vercel.app/paymentsuccess`,
         });
         return new NextResponse(JSON.stringify({ sessionId: session.id }),{
             status: 200,
