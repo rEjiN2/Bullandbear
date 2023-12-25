@@ -21,8 +21,8 @@ export const POST = async(request)=> {
             },
           ],
           mode: "payment",
-          success_url: 'http://localhost:3000/paymentsuccess',
-          cancel_url: `http://localhost:3000/paymentsuccess`,
+          success_url: '/paymentsuccess',
+          cancel_url: `/paymentsuccess`,
         });
         return new NextResponse(JSON.stringify({ sessionId: session.id }),{
             status: 200,
