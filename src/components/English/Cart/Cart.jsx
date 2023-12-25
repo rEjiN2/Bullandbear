@@ -1,5 +1,6 @@
-import { Box, Button, Container, Typography } from '@mui/material'
+"use client"
 import React from 'react'
+import { Box, Button, Container, Typography } from '@mui/material'
 import Stock from '../../../../public/stockImg.jpeg'
 import Stock1 from '../../../../public/stockImg1.jpeg'
 import Stock2 from '../../../../public/stockImg2.jpeg'
